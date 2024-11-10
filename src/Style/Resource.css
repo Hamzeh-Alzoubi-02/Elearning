@@ -1,0 +1,105 @@
+.Resources {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* شبكية ديناميكية */
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+
+  }
+  
+  /* تصميم كل مصدر */
+  .resource {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    transition: transform 0.3s ease-in-out;
+    margin-top: 80px;
+  }
+  
+  /* تأثير عند التمرير على مصدر */
+  .resource:hover {
+    transform: translateY(-10px); /* تأثير رفع المصدر عند التمرير */
+  }
+  
+  /* تنسيق العنوان */
+  .resource h1 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* تنسيق الوصف */
+  .resource p {
+    color: #777;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* تنسيق الزر */
+  .resource button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* تأثير الزر عند التمرير عليه */
+  .resource button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* تنسيق الروابط */
+  a {
+    text-decoration: none;
+  }
+  
+  /* تنسيق الزر في حالة غير نشطة */
+  button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  .search-container {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    background-color: rgba(255, 255, 255, 0.267);   
+    
+  }
+  
+  /* تنسيق مربع البحث */
+  .search-input {
+     
+    height: 40px;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    direction: rtl; /* دعم الكتابة من اليمين لليسار */
+  }
+  
+  /* تغيير لون مربع البحث عند التفاعل */
+  .search-input:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+  
+  /* تحسين عرض الرسائل عند عدم العثور على نتائج */
+  .no-results {
+    text-align: center;
+    color: #555;
+    font-size: 1.2rem;
+    margin-top: 20px;
+  }

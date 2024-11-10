@@ -1,0 +1,87 @@
+.Plan {
+
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: rgba(81, 79, 79, 0.136); 
+    min-height: 100px; /* استخدم min-height بدلاً من height */
+    box-shadow: 10px 10px 5px rgb(0, 0, 0);
+}
+
+.Plan h1 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    padding: 7px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.5s ease;
+}
+
+.Plan h1:hover {
+    background-color: rgba(255, 255, 0, 0.5); /* تأثير عند التمرير */
+}
+
+.box1 {
+   
+    margin-top: 30px;
+    margin-left: 80px;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: linear-gradient(115deg, rgb(4, 84, 255) 0%, rgb(234, 223, 223) 50%, transparent 50%);
+    
+}
+
+.box1 h1 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin-left: -0px;
+    background-color: rgba(79, 108, 201, 0.179);
+    transition: all 0.5s ease; 
+}
+
+.box1 span {
+    margin-left: 30px;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid blue;
+    transform: rotate(90deg); 
+}
+
+.material-symbols-outlined {
+   
+    display: flex;
+
+    flex-wrap: wrap;
+    font-size: 20px;  
+    color: rgb(0, 0, 0);
+    margin-left: 50px;
+    margin-top: 80px;
+    padding-top: 80px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    transition: all 0.5s ease;
+    cursor: pointer;
+    
+}
+
+.C2018 {
+   margin-top: 30px;
+    margin-left: 80px;
+    
+
+    display: flex;
+    gap: 60px;
+    flex-wrap: wrap;
+    
+     
+}

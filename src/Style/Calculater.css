@@ -1,0 +1,71 @@
+.Calculater {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: rgba(81, 79, 79, 0.136);
+    min-height: 100px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+    padding: 20px;  
+    box-sizing: border-box;
+}
+
+.Calculater h1 {
+    color: rgb(0, 0, 0);
+    font-size: 24px;  
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ 
+
+.Calculater span {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    transition: all 0.5s ease;
+    cursor: pointer;
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+}
+
+.Calculater span:hover {
+    background-color: rgba(255, 255, 0, 0.5);  
+    transform: scale(1.05);  
+}
+
+.Calculater a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);  
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    border-radius: 10px;
+    background-color: rgb(66, 111, 216);
+    transition: all 0.5s ease;
+    cursor: pointer;
+    margin: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.Calculater a:hover {
+    background-color: rgba(255, 255, 0, 0.5) ;
+    transform: scale(1.05);  
+}
